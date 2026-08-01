@@ -1,0 +1,7 @@
+# generated export - do not edit
+# source: legacy mainframe dump
+id,name,score
+1,Alice,95
+# row below was a manual correction
+2,Bob,80
+3,Carol,88

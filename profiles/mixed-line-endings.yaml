@@ -1,0 +1,7 @@
+name: mixed-line-endings
+description: Mix LF, CRLF, and CR line endings in one text file.
+parameters:
+  styles: [lf, crlf, cr]
+expected_handling:
+  - normalize line endings before sniffing
+  - or fail with a line-ending diagnostic

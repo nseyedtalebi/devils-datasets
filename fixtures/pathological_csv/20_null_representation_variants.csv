@@ -1,0 +1,8 @@
+id,name,note
+1,Alice,
+2,Bob,NULL
+3,Carol,NA
+4,Dave,\N
+5,Eve,None
+6,Frank,n/a
+7,Grace,real value

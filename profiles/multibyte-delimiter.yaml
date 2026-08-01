@@ -1,0 +1,7 @@
+name: multibyte-delimiter
+description: Use a delimiter longer than one byte and include delimiter-like text inside quoted fields.
+parameters:
+  delimiter: "~="
+expected_handling:
+  - parse with quote-aware multi-byte delimiter support
+  - or fail with an unsupported-delimiter diagnostic

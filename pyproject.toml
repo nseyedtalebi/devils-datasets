@@ -1,0 +1,23 @@
+[project]
+name = "devils-datasets"
+version = "0.1.0"
+description = "Pathological tabular datasets for testing ingestion systems"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Nima Seyed Talebi" }]
+keywords = ["data-engineering", "csv", "etl", "testing", "duckdb", "pathological-data"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Database",
+  "Topic :: Software Development :: Testing",
+]
+
+[project.optional-dependencies]
+duckdb = ["duckdb>=1.0"]
+
+[tool.ruff]
+line-length = 100

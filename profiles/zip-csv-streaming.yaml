@@ -1,0 +1,8 @@
+name: zip-csv-streaming
+description: Put CSV members inside ZIP archives to test bounded-memory archive ingestion.
+parameters:
+  members: 1
+  target_uncompressed_size_mb: 512
+expected_handling:
+  - stream members with bounded memory
+  - or extract explicitly before parsing and report the materialization step

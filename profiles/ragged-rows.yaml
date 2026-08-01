@@ -1,0 +1,8 @@
+name: ragged-rows
+description: Introduce rows with too few or too many fields.
+parameters:
+  probability: 0.05
+  max_extra_fields: 3
+expected_handling:
+  - parse under explicit lenient contract with rejected-row accounting
+  - or fail with a ragged-row diagnostic

@@ -1,0 +1,4 @@
+id,name,city,score
+1,Alice,Springfield,95
+2,Bob,Shelbyville,80,extra_field,another_extra
+3,Carol,Ogdenville,88
