@@ -2,7 +2,7 @@
 
 This document lists pathological cases, failure modes, and mitigations.
 
-## Beelzebub - multiple kinds of pain at once
+## Beelzebub - Multiple difficulties at once and at scale
 
 ### Pathology
 
