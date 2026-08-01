@@ -27,7 +27,9 @@ scripts/generate_pathological_csv.py
 scripts/probe_duckdb.py         Probes fixtures with DuckDB read_csv_auto
 docs/taxonomy.md                Initial pathology taxonomy
 docs/engine-notes/duckdb.md     Observed DuckDB behavior notes
+docs/prior-rust-work.md         Notes on csvparquet and mssql-parquet lineage
 profiles/*.yaml                 Sketches for future mutation/generation profiles
+crates/devilread/               Rust streaming read-adapter crate
 ```
 
 ## Quick start
@@ -48,6 +50,12 @@ Run the basic repo smoke test:
 
 ```bash
 python -m unittest discover -s tests
+```
+
+Run the Rust read-adapter tests:
+
+```bash
+cargo test --workspace
 ```
 
 ## Design principles
