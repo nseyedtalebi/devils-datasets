@@ -1,8 +1,8 @@
-# Devil’s Datasets
+# The Devil’s Datasets
 
 Reproducible pathological datasets for testing data ingestion systems.
 
-Devil’s Datasets is a catalog, fixture suite, and eventually a set of generators/readers for data that is not malicious but is *operationally hostile*: ragged CSV rows, mixed encodings, ambiguous nulls, multi-byte delimiters, huge fields, ZIP-contained CSVs that break streaming assumptions, and other cases that turn “just load the file” into bespoke engineering.
+The Devil’s Datasets is a catalog, fixture suite, and eventually a set of generators/readers for data that is not malicious but is *operationally hostile*: ragged CSV rows, mixed encodings, ambiguous nulls, multi-byte delimiters, huge fields, ZIP-contained CSVs that break streaming assumptions, and other cases that turn “just load the file” into bespoke engineering.
 
 The goal is not to make ingestion systems accept garbage silently. The goal is to let them prove that they can:
 
@@ -51,7 +51,7 @@ python -m unittest discover -s tests
 ```
 
 ## Design principles
-
+- **Palpably evil.** You need data that is pure evil in itself and operationally evil to expose the most diabolical bugs. 
 - **Small fixtures first.** Commit small cases that isolate failure modes; generate large cases on demand.
 - **Deterministic hostility.** Every generated dataset should be reproducible from a seed/profile.
 - **Contracts over vibes.** A case should say what it is testing and what “good handling” means.
@@ -67,3 +67,7 @@ python -m unittest discover -s tests
 ## License
 
 MIT.
+
+## Diabolical AI Disclosure
+
+This document and repo were created with the help of the most diabolical AI available. They represent the unholy union of human creativity and the obscene, blind power of machines. 
